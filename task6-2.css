@@ -1,0 +1,179 @@
+html {
+	font-family:"Hiragino Sans GB W3",Sans-serif;
+	font-size: 62.5%;
+}
+
+body {min-width:320px;background: #29bde0;}
+
+body,p,h1 {
+	margin: 0;
+	padding: 0;
+}
+
+.wrap {
+	width: 100%;
+	height: 100%;
+	background-color: #29bde0;
+}
+
+.header {
+	text-align: center;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+
+h1,.close,.menu {
+	display: inline-block;
+	vertical-align: middle;
+	padding: 1.7rem 0 .7rem 0;
+	font-size: 1.5rem;
+	/*border: 1px solid red;*/
+}
+
+.menu {
+	float: left;
+	padding-left: 1.15rem;
+	width: 2rem;
+}
+
+.close {
+	float: right;
+	padding-right: 1.2rem;
+	width: 1.8rem;
+}
+
+.tip {
+	margin-bottom: 2.7rem;
+	position: relative;
+	background: #b9e9f5;
+	/*border: 1px solid red;*/
+}
+
+.vote,.play {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.vote {
+	padding: 1.5rem 0 1.35rem 2.35rem;
+	color: #464646;
+	font-size: 1.3rem;
+	/*border: 1px solid red;*/
+}
+
+button {
+	float: right;
+	margin: .75rem .8rem;
+	background: transparent;
+	border: none;
+}
+
+.play {
+	/*float: right;*/
+	/*margin: .75rem .8rem;*/
+	width: 2.6rem;
+	/*border: 1px solid red;*/
+}
+
+.tap,.arrow {
+	position: absolute;
+}
+
+.arrow {
+	left: 3.5rem;
+	border-top: .6rem solid #b9e9f5;
+	border-left: .37rem solid transparent;
+	border-right: .37rem solid transparent;
+	}
+
+.tap {
+	left: 3.6rem;
+	bottom: -2.35rem;
+	font-size: 1.2rem;
+}
+
+.ul {
+	margin: 0 .3rem 8.5rem;
+	width: 100%;
+	overflow: hidden;
+}
+
+.li {
+	position: relative;
+	margin: 5.78% 5.4%;
+	float: left;
+	width: 19.68%;
+	text-align: center;
+	border: 3px solid #fff;
+	background: #f5c97b;
+}
+
+.a {
+	padding: 30.9% 0 26% 0;
+	font-size: 1.5rem;
+	color: #565656;
+}
+
+.b {
+	background: #83b09a;
+	padding: .15rem 0;
+	font-size: 1.1rem;
+	color: #fff;
+}
+
+.icon {
+	position: absolute;
+	left: -.1rem;
+	bottom: -2.5rem;
+	width: 105%;
+	height: 1.5rem;
+	background: #29bde0 url(task-6/icon-bg.png) no-repeat;
+	-webkit-background-size: 105%;
+	background-size: 105%;
+	background-position: 0 0;
+}
+
+.footer {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background: #29bde0;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid red;
+}
+
+.footer p {
+	margin: 2.1rem auto 3rem;
+	padding: 1.2rem 0;
+	width: 76.5%;
+	/*height: 4.3rem;*/
+	color: #fff;
+	background: #fbb435;
+	font-size: 2rem;
+	text-align: center;
+}
+
+
+@media only screen and (min-width: 481px ) {
+html {
+	font-size: 94%;
+	}
+}
+
+@media only screen and (min-width: 561px ) {
+html {
+	font-size: 109%;
+	}
+}
+
+
+
+@media only screen and (min-width: 641px ) {
+html {
+	font-size: 125%;
+	}
+
+body {
+	max-width: 640px;
+	}
+}
