@@ -1,0 +1,150 @@
+html {
+	font-family: "Hiragino Sans GB",sans-serif;
+	font-size: 62.5%;
+}
+
+p,h1,h2,span {
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	background: #29bde0;
+}
+
+h1,.footer p{
+	display: inline-block;
+}
+
+.header {
+	border-bottom: 1px solid rgba(255,255,255,0.35);
+	color: #fff;
+	text-align: center;
+	overflow: hidden;
+}
+
+.home,.info,h1 {
+	/*border: 1px solid red;*/
+}
+
+.home {
+	float: left;
+	padding: 1.25rem 0 1rem 1rem;
+	width: 2.55rem;
+}
+
+.info {
+	float: right;
+	padding: 1.25rem .9rem 1.1rem .65rem;
+	width: 2rem;
+}
+
+h1 {
+	padding-top: 1.9rem;
+	font-weight: normal;
+	font-size: 1.7rem;
+}
+
+.win {
+	position: relative;
+}
+
+h2 {
+	margin-left: -4.4rem;
+	position: absolute;
+	left: 50%;
+	top: 8.15rem;
+	color: #fff;
+	font-size: 2.2rem;
+	line-height: 1;
+}
+
+.win img {
+	padding: 1.2rem 7.35rem .9rem 7.2rem;
+	width: 17.55rem;
+}
+
+.win p {
+	padding: 0 3.9rem;
+	color: #ffc865;
+	font-weight: bold;
+	font-size: 1.65rem;
+	line-height: 1.24;
+}
+
+.result {
+	padding: 2.5rem 3.9rem .65rem;
+	color: #fff;
+	font-size: 1.3rem;
+	border-bottom: 1px solid rgba(83,83,83,0.2);
+}
+
+.result p,.result span {
+	line-height: 1.55;
+}
+
+.result span {
+	padding-right: 1.7rem;
+}
+
+.nuer {
+	position: relative;
+	bottom: .2rem;
+}
+
+.day {
+	background: #fff;
+	border-top: 1px solid rgba(83,83,83,0.2);
+	border-bottom: 1px solid rgba(83,83,83,0.2);
+	padding-bottom: 1.35rem;
+}
+
+.day span {
+	display: inline-block;
+}
+
+.date {
+	padding: .6rem 3.8rem 1.05rem ;
+	color: #515151;
+	font-size: 1.5rem;
+}
+
+.time {
+	float: right;
+	padding: .9rem 5.2rem;
+	color: #c7c7c7;
+	font-size: .9rem;
+}
+
+.day p {
+	padding-left: 3.95rem;
+	color: #a6a6a6;
+	line-height: 1.55;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	background: rgba(41,189,224,0.48);
+	color: #fff;
+	font-size: 2rem;
+}
+
+.again,.share {
+	margin: 1.2rem 1rem .95rem;
+}
+
+.again {
+	padding: 1.35rem 2.8rem 1.2rem;
+	background: #f66f6f;
+	border-radius: .5rem;
+}
+
+.share {
+	padding: 1.35rem 1.8rem 1.2rem;
+	background: #fbb435;
+	border-radius: .5rem;
+}
