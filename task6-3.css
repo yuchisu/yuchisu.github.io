@@ -1,6 +1,7 @@
 html {
 	font-family: "Hiragino Sans GB",sans-serif;
 	font-size: 62.5%;
+	background:#ddd;
 }
 
 p,h1,h2,span {
