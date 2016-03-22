@@ -12,6 +12,7 @@ p,h1,h2,span {
 body {
 	margin: 0 auto;
 	padding: 0;
+	width: 100%;
 	background: #29bde0;
 }
 
@@ -48,7 +49,7 @@ h1 {
 	font-size: 1.7rem;
 }
 
-.win {
+.logo {
 	position: relative;
 }
 
@@ -56,19 +57,23 @@ h2 {
 	margin-left: -4.4rem;
 	position: absolute;
 	left: 50%;
-	top: 8.15rem;
+	/*top: 8.15rem;*/
+	top: 65%;
 	color: #fff;
 	font-size: 2.2rem;
 	line-height: 1;
 }
 
 .win img {
-	padding: 1.2rem 7.35rem .9rem 7.2rem;
-	width: 17.55rem;
+	padding: 3.75% 22.5% 2.8%;
+	/*width: 17.55rem;*/
+	width: 54.8%;
+	/*border: 1px solid red;*/
 }
 
 .win p {
-	padding: 0 3.9rem;
+	/*padding: 0 3.9rem;*/
+	padding: 0 12.26%;
 	color: #ffc865;
 	font-weight: bold;
 	font-size: 1.65rem;
@@ -76,7 +81,8 @@ h2 {
 }
 
 .result {
-	padding: 2.5rem 3.9rem .65rem;
+	/*padding: 2.5rem 3.9rem .65rem;*/
+	padding: 7.81% 12.26% 2.03%;
 	color: #fff;
 	font-size: 1.3rem;
 	border-bottom: 1px solid rgba(83,83,83,0.2);
@@ -87,7 +93,9 @@ h2 {
 }
 
 .result span {
+	display: inline-block;
 	padding-right: 1.7rem;
+	width: 6.06rem;
 }
 
 .nuer {
@@ -99,7 +107,8 @@ h2 {
 	background: #fff;
 	border-top: 1px solid rgba(83,83,83,0.2);
 	border-bottom: 1px solid rgba(83,83,83,0.2);
-	padding-bottom: 1.35rem;
+	/*padding-bottom: 1.35rem;*/
+	padding-bottom: 4.21%;
 }
 
 .day span {
@@ -107,44 +116,87 @@ h2 {
 }
 
 .date {
-	padding: .6rem 3.8rem 1.05rem ;
+	/*padding: .6rem 3.8rem 1.05rem ;*/
+	padding: 1.875% 11.875% 3.28%;
 	color: #515151;
 	font-size: 1.5rem;
 }
 
 .time {
 	float: right;
-	padding: .9rem 5.2rem;
+	/*padding: .9rem 5.2rem;*/
+	padding: 2.8% 16.25%;
 	color: #c7c7c7;
 	font-size: .9rem;
 }
 
 .day p {
-	padding-left: 3.95rem;
+	/*padding-left: 3.95rem;*/
+	padding: 0 12.34%;
 	color: #a6a6a6;
 	line-height: 1.55;
+	/*border: 1px solid red;*/
 }
 
 .footer {
 	position: fixed;
 	bottom: 0;
+	width: 100%;
+	max-width: 640px;
 	background: rgba(41,189,224,0.48);
 	color: #fff;
 	font-size: 2rem;
 }
 
 .again,.share {
-	margin: 1.2rem 1rem .95rem;
 }
 
 .again {
-	padding: 1.35rem 2.8rem 1.2rem;
+	margin: 3.75% 0 2.96% 3.75%;
+	/*padding: 1.35rem 2.8rem 1.2rem;*/
+	padding: 4.2% 8.75% 3.75%;
 	background: #f66f6f;
 	border-radius: .5rem;
 }
 
 .share {
-	padding: 1.35rem 1.8rem 1.2rem;
+	float: right;
+	margin: 3.75% 3.75% 2.96% 0;
+	/*padding: 1.35rem 1.8rem 1.2rem;*/
+	padding: 4.2% 5.62% 3.75%;
 	background: #fbb435;
 	border-radius: .5rem;
+}
+
+@media only screen and (min-width: 321px) {
+	html {font-size: 73%;}
+
+}
+
+@media only screen and (min-width:376px) {
+	html {font-size: 80%;}
+}
+
+@media only screen and (min-width: 481px ) {
+html {
+	font-size: 94%;
+	}
+}
+
+@media only screen and (min-width: 561px ) {
+html {
+	font-size: 109%;
+	}
+}
+
+
+
+@media only screen and (min-width: 641px ) {
+html {
+	font-size: 125%;
+	}
+
+body {
+	max-width: 640px;
+	}
 }
