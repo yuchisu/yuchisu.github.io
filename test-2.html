@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="textml; charset=utf-8" />
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<head>
+	<title>Test-2</title>
+	<style type="text/css">
+		body {margin: 0 auto;}
+
+		body {
+			font-size: 25x;
+		}
+
+		div {text-align: center;width: 150px;margin: 0 auto}
+
+		.a p {
+			transition: all .5s;
+			margin: 0;
+			padding: 5px;
+			color: #505050;
+			width: 150px;
+			font-weight: bold;
+			letter-spacing: 5px;
+			border-radius: 5px;
+			cursor: default;
+			-webkit-user-select:none;
+		}
+
+		.b p {
+			margin: 0;
+			padding: 5px;
+			color: #505050;
+			width: 150px;
+			font-weight: bold;
+			letter-spacing: 5px;
+			border-radius: 5px;
+		}
+
+		.b p:hover {
+			background-color: #D077FF;
+		}
+	</style>
+
+	<!-- ==========script========== -->
+
+	<script>
+
+		function mOver(obj) {
+			obj.style.background="#D077FF";
+		}
+
+		function mOut(obj) {
+			obj.style.background="none";
+		}
+
+
+
+	</script>
+</head>
+<body>
+<div class="a">
+<p onmouseover="mOver(this)" onmouseout="mOut(this)">一二三四五</p>
+<p onmouseover="mOver(this)" onmouseout="mOut(this)">上山打老虎</p>
+<p onmouseover="mOver(this)" onmouseout="mOut(this)">老虎没打到</p>
+<p onmouseover="mOver(this)" onmouseout="mOut(this)">打到小松鼠</p>
+</div>
+<hr>
+<div class="b">
+<p>一二三四五</p>
+<p>上山打老虎</p>
+<p>老虎没打到</p>
+<p>打到小松鼠</p>
+</div>
+</body>
+</html>
