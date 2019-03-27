@@ -1,0 +1,32 @@
+div 
+{
+	display: inline;
+	width: 20%;
+}
+
+main 
+{
+	width: auto;
+}
+.iframe 
+{
+	position: relative;
+	width: 33.333%;
+	display: inline;
+	/*float: left;*/
+	padding: 5%;
+}
+
+p
+{
+	position: absolute;
+	left: 40%;
+	bottom: 20%;
+	font-size: 20px;
+}
+
+img 
+{
+	width: 100%;
+	height: auto;
+}
